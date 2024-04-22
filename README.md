@@ -187,14 +187,15 @@ public class ElektrycznyWylacznik {
         return this.stanSwiatla.isOn();
     }
     public void nacisnij(){
-        boolean sprawdzStan = stanSwiatla.isOn();
-        if (sprawdzStan) {
+        
+        if ( this.stanSwiatla.isOn() ) {
             this.swiatlo.wylaczone();
             this.stanSwiatla.ustawWylaczone();
         } else {
             this.swiatlo.wlaczone();
             this.stanSwiatla.ustawWlaczone();
         }
+        
     }    
 }
 
