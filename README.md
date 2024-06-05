@@ -1,5 +1,3 @@
-Kiedyś przeszukiwałem tony stron by dokładnie zrozumieć zasady SOLID w programowaniu. 
-
 Opis pewnego podejścia do SOLID
 
 
