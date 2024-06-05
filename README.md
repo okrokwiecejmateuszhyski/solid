@@ -45,27 +45,18 @@ Pomyślałem sobie, aby poukładać zgodnie z tymi regułami programowania ten k
 
 
 public class StanSwiatla{
-
     public boolean on;
-
     public boolean isOn(){
-
         return this.on;
-
     }
 
     public void ustawWylaczone(){
-
         this.on = false;
-
     }
 
     public void ustawWlaczone(){
-
         this.on = true;
-
     }
-
 }
 
  Z klasy ElektrycznyWylacznik można teraz pozbyć się zmiennej on a w jej miejsce wprowadzić instancje klasy StanSwiatla.
@@ -146,27 +137,18 @@ public class Swiatlo {
 }
 
 public class StanSwiatla{
-
     public boolean on;
-
     public boolean isOn(){
-
         return this.on;
-
     }
 
     public void ustawWylaczone(){
-
         this.on = false;
-
     }
 
     public void ustawWlaczone(){
-
         this.on = true;
-
     }
-
 }
 
  
